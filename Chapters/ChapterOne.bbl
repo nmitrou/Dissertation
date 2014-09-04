@@ -1,0 +1,118 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bayliss(1902)]{Bayliss02}
+William~Maddock Bayliss.
+\newblock On the local reactions of the arterial wall to changes of internal
+  pressure.
+\newblock \emph{The Journal of physiology}, 28\penalty0 (3):\penalty0 220--231,
+  1902.
+
+\bibitem[Cupples and Loutzenhiser(1998)]{Cupples98}
+William~A Cupples and Rodger~D Loutzenhiser.
+\newblock Dynamic autoregulation in the in vitro perfused hydronephrotic rat
+  kidney.
+\newblock \emph{American Journal of Physiology-Renal Physiology}, 275\penalty0
+  (1):\penalty0 F126--F130, 1998.
+
+\bibitem[Davis et~al.(1992)Davis, Donovitz, and Hood]{Davis92}
+MJ~Davis, JA~Donovitz, and JD~Hood.
+\newblock Stretch-activated single-channel and whole cell currents in vascular
+  smooth muscle cells.
+\newblock \emph{merican Journal of Physiology-Cell Physiology}, 262\penalty0 (4
+  Pt 1):\penalty0 C1083--C1088, 1992.
+
+\bibitem[Earley et~al.(2004)Earley, Waldron, and Brayden]{Earley04}
+Scott Earley, Brian~J Waldron, and Joseph~E Brayden.
+\newblock Critical role for transient receptor potential channel trpm4 in
+  myogenic constriction of cerebral arteries.
+\newblock \emph{Circulation Research}, 95\penalty0 (9):\penalty0 922--929,
+  2004.
+
+\bibitem[Gilmore et~al.(1980)Gilmore, Cornish, Rogers, and Joyner]{Gilmore80}
+Joseph~P Gilmore, Kurtis~G Cornish, Stephanie~D Rogers, and William~L Joyner.
+\newblock Direct evidence for myogenic autoregulation of the renal
+  microcirculation in the hamster.
+\newblock \emph{Circulation Research}, 47\penalty0 (2):\penalty0 226--230,
+  1980.
+
+\bibitem[Gokina and Osol(2002)]{Gokina02}
+Natalia~I Gokina and George Osol.
+\newblock Actin cytoskeletal modulation of pressure-induced depolarization and
+  ca2+ influx in cerebral arteries.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology}, 282\penalty0 (4):\penalty0 H1410--H1420, 2002.
+
+\bibitem[Guyton and Hall(2006)]{GuytonHall}
+Arthur~C Guyton and John~E Hall.
+\newblock \emph{Textbook of Medical Physiology}.
+\newblock Elsevier Saunders, Philadelphia, Pennsylvania, 2006.
+
+\bibitem[Hill and Davis(2007)]{Hill07}
+Michael~A Hill and Michael~J Davis.
+\newblock Coupling a change in intraluminal pressure to vascular smooth muscle
+  depolarization: still stretching for an explanation.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology}, 292\penalty0 (6):\penalty0 H2570--H2572, 2007.
+
+\bibitem[Holstein-Rathlou and Leyssac(1986)]{HolsteinRathlou86}
+Niels-Henrik Holstein-Rathlou and Paul~P Leyssac.
+\newblock Tgf-mediated oscillations in the proximal intratubular pressure:
+  differences between spontaneously hypertensive rats and wistar-kyoto rats.
+\newblock \emph{Acta physiologica scandinavica}, 126\penalty0 (3):\penalty0
+  333--339, 1986.
+
+\bibitem[Knot and Nelson(1998)]{Knot98}
+Harm~J Knot and Mark~T Nelson.
+\newblock Regulation of arterial diameter and wall [ca2+] in cerebral arteries
+  of rat by membrane potential and intravascular pressure.
+\newblock \emph{The Journal of Physiology}, 508\penalty0 (1):\penalty0
+  199--209, 1998.
+
+\bibitem[Kotecha and Hill(2005)]{Kotecha05}
+Neela Kotecha and Michael~A Hill.
+\newblock Myogenic contraction in rat skeletal muscle arterioles: smooth muscle
+  membrane potential and ca2+ signaling.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology}, 289\penalty0 (4):\penalty0 H1326--H1334, 2005.
+
+\bibitem[Leyssac and Baumbach(1983)]{Leyssac83}
+Paul~P Leyssac and L~Baumbach.
+\newblock An oscillating intratubular pressure response to alterations in henle
+  loop flow in the rat kidney.
+\newblock \emph{Acta Physiologica Scandinavica}, 117\penalty0 (3):\penalty0
+  415--419, 1983.
+
+\bibitem[Sakai et~al.(1986)Sakai, Hallman, and Marsh]{Sakai86}
+Tenei Sakai, Eileen Hallman, and Donald~J Marsh.
+\newblock Frequency domain analysis of renal autoregulation in the rat.
+\newblock \emph{American Journal of Physiology-Renal Physiology}, 250:\penalty0
+  F364--F373, 1986.
+
+\bibitem[Schnermann et~al.(1970)Schnermann, Wright, Davis, Stackelberg, and
+  Grill]{Schnermann70}
+J.~Schnermann, F.S. Wright, J.M. Davis, W.v. Stackelberg, and G.~Grill.
+\newblock Regulation of superficial nephron filtration rate by
+  tubulo-glomerular feedback.
+\newblock \emph{Pfl\"{u}gers Archiv}, 318\penalty0 (2):\penalty0 147--175,
+  1970.
+
+\bibitem[Schubert et~al.(2002)Schubert, Kalentchuk, and Krien]{Schubert02}
+Rudolf Schubert, Vjatscheslav~U Kalentchuk, and Ulrike Krien.
+\newblock Rho kinase inhibition partly weakens myogenic reactivity in rat small
+  arteries by changing calcium sensitivity.
+\newblock \emph{American Journal of Physiology-Heart and Circulatory
+  Physiology}, 283\penalty0 (6):\penalty0 H2288--H2295, 2002.
+
+\bibitem[Welsh et~al.(2002)Welsh, Morielli, Nelson, and Brayden]{Welsh02}
+Donald~G Welsh, Anthony~D Morielli, Mark~T Nelson, and Joseph~E Brayden.
+\newblock Transient receptor potential channels regulate myogenic tone of
+  resistance arteries.
+\newblock \emph{Circulation Research}, 90\penalty0 (3):\penalty0 248--250,
+  2002.
+
+\end{thebibliography}

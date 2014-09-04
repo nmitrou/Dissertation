@@ -1,0 +1,66 @@
+\documentclass[11pt]{report}
+\usepackage{pdfpages}
+\usepackage{makeidx} 
+\usepackage{graphicx}
+\usepackage{csthesis}
+\usepackage[titletoc]{appendix}
+\usepackage[square,numbers,sectionbib]{natbib}
+\usepackage{chapterbib}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{subscript}
+\usepackage{amsmath}
+\usepackage{float}
+%\usepackage{tabu}
+
+
+
+\begin{document}
+
+\figurespagetrue
+\tablespagetrue
+
+%\addcontentsline{toc}{chapter}{}
+
+%Title page and Approval
+\include{Chapters/TitlePage}
+
+% Partial copyright release
+\newpage 			
+\addcontentsline{toc}{chapter}{Partial Copyright License}
+\mbox{}
+\makeatletter
+\AddToShipoutPictureBG*{
+            \setlength{\@tempdimc}{.06\paperheight}
+            \setlength{\unitlength}{1pt}
+           \put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){
+	\includegraphics{PCL_Declaration.pdf}
+	} 
+} 
+
+%Abstract
+\include{Chapters/Abstract}
+
+%Acknowledgements
+\include{Chapters/Acknowledgements}
+
+%Generate Table of contents and lists of figures
+\lists
+
+\beforetext
+
+% Chapter 1: Introduction
+\include{Chapters/ChapterOne}
+
+% Chapter 2: Synchronization and NO
+\include{Chapters/ChapterTwo}
+
+% Chapter 3: Anatomy and synchronization
+\include{Chapters/ChapterThree}
+
+% Chapter 4: Gap junctions, synchronization, and autoregulation
+\include{Chapters/ChapterFour}
+
+% Chapter 5: Conclusions and Future work
+\include{Chapters/ChapterFive}
+
+\end{document}
