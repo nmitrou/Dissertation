@@ -3,9 +3,48 @@
 \section{Introduction}
 
 \section{Methods}
+% Ethics
+\emph{Animals}. All experiments were approved by the Animal Care Committee of Simon Fraser University and performed according to the guidelines of the Canadian Council on Animal Care. Male Long-Evans rats (aged 12-14 weeks, $N=10$) were purchased from Harlan Laboratories (Livermore, CA, USA), housed in groups of 3-5 with \emph{ad libitum} access to standard rat chow and distilled water.
+% Surgery	
+	Each rat received the analgesic buprenorphine (Summit Veterenary Pharmacy, Aurora, ON, Canada; 0.02 mg/kg s.c.) 20 minutes prior to anesthesia. Anesthesia was induced with 4\% isoflurane (Aerrane; Baxter, Mississauga, ON, Canada) in inspired air (45\% O\textsubscript{2}). After induction the rat was transferred to a heated surgical table ($35 ^{\circ} \ {\rm C}$). The trachea was cannulated (PE-210) and the rat was ventilated with a pressure-controlled small animal ventilator (TOPO, Kent Scientific, Torrington, CT, USA) operating in times ventilation mode and adjusted to match the rat's natural breathing rat (50-60 min \textsuperscript{-1}). During surgery inspired isoflurane was set to 2\%.
+	
+	The left femoral vein was cannulated (PE-50) for infusion of 2\% charcoal-washed bovine serum albumin (Sigma-Aldrich, Oakville, ON, Canada) in normal saline at 1\% BW/h. The left femoral artery was cannulated (PE-90 with narrowed tip) and connected to a pressure transducer (TRN050, Kent) driven by a TRN005 amplifier for measurement of BP. The left kidney was exposed by a subcostal flank incision, freed from surrounding fat, and placed in a plastic cup mounted to the surgical table. The kidney was bedded in silicone stopcock grease (Dow Corning, Midland, MI, USA) to minimize motion. After the renal artery was stripped a transit time ultrasound flow probe (PRB-001, Transonic Systems, Ithaca, NY, USA) was attached. The flow probe was secured in place with acoustic coupling gel (NALCO 1181 and surgical lubricant) and driven by a TS-420 flow meter (Transonic). Except when acquiring data, the surface of the kidney was covered with Parafilm to prevent drying. Anesthesia was reduced to the lowest dose ($\approx 1.5\%$) that prevented BP responses to toe pinching and the animal was allowed to stabilize for one hour.
+% LSCI	
+	The kidney was prepared by gently cleaning the surface with normal saline and periodically moistening it thereafter. LSCI was performed with a moorFLPI laser speckle contrast imager (Moor Instruments, Axminster, UK) positioned $\approx 18$ \ cm above the kidney surface. The flattest portion of the dorsal surface of the kidney was chosen for imaging. Approximately one third of the total dorsal surface was monitored. The instrument was modified by the manufacturer to have twice the optical zoom of the standard model allowing a small field of view $\approx 4\times 5$ mm (Table 1).
+	
+	To avoid aliasing heart rate-dependent flow pulses into perfusion \cite{Scully13}, the imager was used in spatial averaging mode which acquires $113 \times 152$ pixel images of perfusion at $25$ \ Hz. Before each record was taken, a $4$ \ mm hair was placed on the surface to determine pixel size and to assist in focusing the LSCI camera. 
+% Drugs	
+	\emph{Drugs}. All drugs in this experiment were obtained from Sigma-Aldrich. Carbenoxolone (CBX) is a non-selective gap junction blocker. CBX was used at $1.6 \times 10^{-5} \ $ mol/kg, dissolved in normal saline and delivered as a bolus intravenous injection. To control for the non-gap junction-specific effects of CBX, we used glycyrrhizic acid (GZA) as a control compound because it has similar effects to CBX except it does not block gap junctions. GZA was used at $1.6 \times 10^{-5} \ $ mol/kg as well, but dissolved in $50:50 \ $ ethanol:saline. \\
+% Design	
+	\emph{Experiments}. Two sets of experiments were performed in this study. The first set used CBX to inhibit gap junctional intercellular communication. The second set was a replicate of the first set, except CBX was replaced with GZA. Each set of experiments was performed on 10 rats.
+	
+	The general design of each experiment was as follows. First, control records were taken during broadband forcing of renal perfusion pressure (CTL). Forcing RPP allows us to generate blood pressure inputs more evenly across the frequency spectrum, so transfer function analysis is more interpretable. CTL records were 25 minutes long and renal cortical perfusion was monitored with LSCI during the CTL period. Afterwards, steady-state autoregulation was assessed by reducing renal perfusion pressure in 10 mmHg steps. Each step was held for 1 minute, and the mean RPP and RBF from the last 30 s of each step were used to generate the autoregulation results. \\
+	\emph{Data analysis}. Mean RPP, RBF, and LSCI were taken from the entirety of each period of broadband forcing. We used a target RPP for our forcing routines so that the CBX/GZA period had RPP as similar as possible to the CTL period. This facilitates appropriate comparisons between RBF and transfer function values. To estimate the spatial variance of renal cortical perfusion, we calculated the spatial coefficient of variation (CV\textsubscript{spatial}) according to equation~\ref{eq:CVspatial}.
+	
+	\begin{equation}
+		CV_{spatial} = \frac{\sigma_{x,y}}{\mu_{x,y}}
+		\label{eq:CVspatial}
+	\end{equation}
+% Synchronization	
+	\emph{Internephron synchronization}. Synchronization was quantified as described previously \cite{Scully14}. Briefly, we acquired cortical perfusion signals from LSCI, spatially and temporally filtered them, and used the Hilbert transform to estimate the instantaneous phase of each imaged pixel. Imaged pixels in this study were approximately $135\times 135 \ \mu \ $m after being spatially down sampled by a factor of 4. Synchronization was determined by computing phase coherence (PC) between all possible pairs of imaged pixels \cite{Scully14}, and using cluster analysis to sort the PC values into mutually synchronized clusters. Indices of synchronization were taken as the mean PC and the mean phase difference (PD) within each synchronized cluster. \\
+% Transfer function	
+	\emph{Dynamic autoregulation}. Autoreguation dynamics were assessed by transfer function analysis, as described previously \cite{Wang99,Wang01,Shi06}. Briefly, 500 Hz RBF and RPP data were low pass filtered to 1 Hz and downsampled to 2 Hz. After subtracting the mean and linearly detrending the data, the power spectra were calculated according to Welch?s method with 50\% overlap, Hamming window, and 128 point vectors. Transfer and coherence functions were calculated as the quotient of the blood pressure power spectrum divided by the cross-spectrum of RPP and RBF. Admittance gain was normalized to renal vascular conductance and converted to decibels by taking 20 times the log of the admittance magnitude. The slope of myogenic gain reduction was calculated in the linear region of gain reduction for each record. Myogenic phase peak was calculated as the average phase in the frequency range of myogenic gain reduction. TGF gain reduction and phase peaks were not calculated because coherence in the TGF frequency band is not sufficiently high for detailed analysis. The same process was performed using the LSCI signal instead of whole kidney RBF. Slope of gain reduction was determined using an automatic routine developed in Matlab. This routine was used to find the most linear region in the myogenic operating frequency range, and fit the points before determining the slope of the fitted line. Pilot studies showed that this process provides a robust estimate of the slope of myogenic gain reduction. This method allowed us to determine the efficiency of myogenic autoregulation at multiple points on the renal surface and then determine the spatial variance of autoregulation efficiency. \\
+% Steady state
+	\emph{Stead state autoregulation}. Steady state autoregulation was determined by the mean RPP and mean RBF during the last 30 s of each pressure step. To quantify autoregulation, the auto regulatory index was calculated according to equation~\ref{eq:AI} over the pressure interval 110-80 mmHg.
+	\begin{equation}
+	 	AI_{1,2} = \frac{\frac{RBF_2-RBF_1}{RBF_1}}{\frac{RPP_2-RPP_1}{RPP_1}}
+		\label{eq:AI}
+	\end{equation}
+	
 
 \section{Results}
+
+	
 
 \section{Discussion}
 
 \section{Conclusion}
+
+\bibliographystyle{plainnat}
+\renewcommand{\bibname}{References}
+\bibliography{../Dissertation_Bib}
